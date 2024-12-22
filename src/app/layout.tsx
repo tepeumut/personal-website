@@ -2,8 +2,9 @@ import type {Metadata} from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "Umut Tepe - Full Stack Developer & Blockchain Enthusiast",
-    description: "Full-stack developer with 5 years of experience, specializing in web, mobile, and blockchain development.",
+    metadataBase: new URL('https://tepeumut.com'),
+    title: "Umut Tepe - Full Stack Developer",
+    description: "Full Stack Developer specializing in web development, blockchain, and modern technologies.",
     keywords: [
         "Umut Tepe",
         "Full Stack Developer",
@@ -24,8 +25,8 @@ export const metadata: Metadata = {
         type: "website",
         locale: "en_US",
         url: "https://tepeumut.com",
-        title: "Umut Tepe - Full Stack Developer & Blockchain Enthusiast",
-        description: "Full-stack developer with 5 years of experience, specializing in web, mobile, and blockchain development.",
+        title: "Umut Tepe - Full Stack Developer",
+        description: "Full Stack Developer specializing in web development, blockchain, and modern technologies.",
         siteName: "Umut Tepe",
         images: [
             {
@@ -38,9 +39,9 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Umut Tepe - Full Stack Developer & Blockchain Enthusiast",
-        description: "Full-stack developer with 5 years of experience, specializing in web, mobile, and blockchain development.",
-        creator: "@tepeumut1",
+        title: "Umut Tepe - Full Stack Developer",
+        description: "Full Stack Developer specializing in web development, blockchain, and modern technologies.",
+        creator: "@tepeumut",
         images: [
             {
                 url: "/favicon.svg",
@@ -58,7 +59,11 @@ export const metadata: Metadata = {
                 type: "image/svg+xml"
             }
         ]
-    }
+    },
+    robots: {
+        index: true,
+        follow: true,
+    },
 };
 
 export default function RootLayout({
