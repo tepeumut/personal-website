@@ -1,0 +1,155 @@
+{
+  "header": {
+    "name": "Umut Tepe",
+    "title": "Full Stack Developer & Blockchain Enthusiast",
+    "status": "Available for work",
+    "location": "Istanbul, Turkey"
+  },
+  "about": "Full-stack developer with 5 years of experience, specializing in web and mobile application development. Passionate about blockchain technology and creating scalable solutions using modern tech stacks.",
+  "skills": {
+    "blockchain": {
+      "icon": "IconCurrencyBitcoin",
+      "iconColor": "rgb(234 179 8)",
+      "technologies": [
+        {
+          "name": "Solidity",
+          "icon": "IconCurrencyEthereum",
+          "iconColor": "#E6E6E6"
+        },
+        {
+          "name": "Solana",
+          "icon": "IconCurrencySolana",
+          "iconColor": "#00FFA3"
+        },
+        {
+          "name": "Anchor",
+          "icon": "IconAnchor",
+          "iconColor": "#FF4F00"
+        },
+        {
+          "name": "Web3.js",
+          "icon": "img",
+          "iconSrc": "/svg/web3js.svg"
+        }
+      ]
+    },
+    "backend": {
+      "icon": "IconServer",
+      "iconColor": "rgb(59 130 246)",
+      "technologies": [
+        {
+          "name": "Node.js",
+          "icon": "IconBrandNodejs",
+          "iconColor": "#339933"
+        },
+        {
+          "name": "Java",
+          "icon": "img",
+          "iconSrc": "/svg/java-logo.svg"
+        },
+        {
+          "name": "NestJS",
+          "icon": "img",
+          "iconSrc": "/svg/nestjs-logo.svg"
+        },
+        {
+          "name": "Go",
+          "icon": "IconBrandGolang",
+          "iconColor": "#00ADD8"
+        },
+        {
+          "name": "PHP",
+          "icon": "IconBrandPhp",
+          "iconColor": "#777BB4"
+        },
+        {
+          "name": "Symfony",
+          "icon": "IconBrandSymfony"
+        }
+      ]
+    },
+    "frontend": {
+      "icon": "IconCode",
+      "iconColor": "rgb(168 85 247)",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "IconBrandReact",
+          "iconColor": "#61DAFB"
+        },
+        {
+          "name": "Next.js",
+          "icon": "IconBrandNextjs"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "IconBrandJavascript",
+          "iconColor": "#F7DF1E"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "IconBrandTypescript",
+          "iconColor": "#3178C6"
+        }
+      ]
+    },
+    "database": {
+      "icon": "IconDatabase",
+      "iconColor": "rgb(34 197 94)",
+      "technologies": [
+        {
+          "name": "MongoDB",
+          "icon": "IconBrandMongodb",
+          "iconColor": "#47A248"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "IconDatabase",
+          "iconColor": "#336791"
+        },
+        {
+          "name": "MySQL",
+          "icon": "IconBrandMysql",
+          "iconColor": "#4479A1"
+        },
+        {
+          "name": "Redis",
+          "icon": "img",
+          "iconSrc": "/svg/redis-logo.svg"
+        }
+      ]
+    }
+  },
+  "projects": [
+    {
+      "name": "Crux API",
+      "status": "Coming Soon",
+      "description": "Modern API marketplace platform with comprehensive documentation, testing, and monitoring tools.",
+      "technologies": [
+        "Node.js",
+        "NestJS",
+        "shadcn/ui",
+        "PostgreSQL",
+        "Redis",
+        "Go"
+      ]
+    },
+    {
+      "name": "Click Short",
+      "status": "Coming Soon",
+      "description": "Modern URL shortener service with analytics, custom domains, and API integration capabilities.",
+      "technologies": [
+        "Next.js",
+        "NestJS",
+        "PostgreSQL",
+        "Redis"
+      ]
+    }
+  ],
+  "socialLinks": {
+    "github": "https://github.com/tepeumut",
+    "linkedin": "https://linkedin.com/in/tepeumut",
+    "email": "mail@tepeumut.com",
+    "sourceCode": "https://github.com/tepeumut/personel-website"
+  }
+}
