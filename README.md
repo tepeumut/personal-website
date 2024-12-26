@@ -44,7 +44,7 @@ smooth animations and a responsive layout.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/personal-website.git
+   git clone https://github.com/tepeumut/personal-website.git
    ```
 
 2. Install dependencies:
